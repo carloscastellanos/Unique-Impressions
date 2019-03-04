@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F56E62093ABB4E00D4044E /* PacketsToMatrix.java in Sources */ = {isa = PBXBuildFile; fileRef = 07F56E61093ABB4E00D4044E /* PacketsToMatrix.java */; };
+		07F56E7C093ABCCB00D4044E /* NetArtLibraries.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F56E7B093ABCCB00D4044E /* NetArtLibraries.jar */; };
+		15024AC405FFAB9E0060F016 /* max.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 15024AC305FFAB9E0060F016 /* max.jar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		15024AA605FFA94D0060F016 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		15024AA705FFA94D0060F016 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15024ABD05FFAAEF0060F016 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Application Support/Cycling '74/java/classes/";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07F56E61093ABB4E00D4044E /* PacketsToMatrix.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = PacketsToMatrix.java; sourceTree = "<group>"; };
+		07F56E7B093ABCCB00D4044E /* NetArtLibraries.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = NetArtLibraries.jar; path = /Library/Java/Extensions/NetArtLibraries/lib/NetArtLibraries.jar; sourceTree = "<absolute>"; };
+		15024ABB05FFAA930060F016 /* classes */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = classes; sourceTree = BUILT_PRODUCTS_DIR; };
+		15024AC305FFAB9E0060F016 /* max.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = max.jar; path = "/Library/Application Support/Cycling '74/java/lib/max.jar"; sourceTree = "<absolute>"; };
+		15BA779B05FFB38E00E1B09F /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15024AB905FFAA930060F016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15024AC405FFAB9E0060F016 /* max.jar in Frameworks */,
+				07F56E7C093ABCCB00D4044E /* NetArtLibraries.jar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15024AA405FFA94D0060F016 = {
+			isa = PBXGroup;
+			children = (
+				07F56E7B093ABCCB00D4044E /* NetArtLibraries.jar */,
+				07F56E61093ABB4E00D4044E /* PacketsToMatrix.java */,
+				15BA779B05FFB38E00E1B09F /* readme.txt */,
+				15024AC305FFAB9E0060F016 /* max.jar */,
+				15024AB405FFAA620060F016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15024AB405FFAA620060F016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15024ABB05FFAA930060F016 /* classes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXJavaArchiveBuildPhase section */
+		15024AB805FFAA930060F016 /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXJavaArchiveBuildPhase section */
+
+/* Begin PBXLibraryTarget section */
+		15024ABA05FFAA930060F016 /* PacketsToMatrix */ = {
+			isa = PBXLibraryTarget;
+			buildConfigurationList = 07C44862093ABAAB00C587B4 /* Build configuration list for PBXLibraryTarget "PacketsToMatrix" */;
+			buildPhases = (
+				15024AB705FFAA930060F016 /* Sources */,
+				15024AB805FFAA930060F016 /* JavaArchive */,
+				15024AB905FFAA930060F016 /* Frameworks */,
+				15024ABD05FFAAEF0060F016 /* CopyFiles */,
+				1576F8A905FFB5E200BB67E0 /* ShellScript */,
+				15377A8205FFFD89003EAF12 /* ShellScript */,
+			);
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = "/Library/Application Support/Cycling 74/java/classes";
+				JAVA_ARCHIVE_CLASSES = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = classes;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = PacketsToMatrix;
+			productInstallPath = "/Library/Application Support/Cycling '74/java/classes";
+			productName = HelloWorld;
+			productReference = 15024ABB05FFAA930060F016 /* classes */;
+		};
+/* End PBXLibraryTarget section */
+
+/* Begin PBXProject section */
+		15024AA805FFA94D0060F016 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 07C44866093ABAAB00C587B4 /* Build configuration list for PBXProject "PacketsToMatrix" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				15024AA605FFA94D0060F016 /* Development */,
+				15024AA705FFA94D0060F016 /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 15024AA405FFA94D0060F016;
+			productRefGroup = 15024AB405FFAA620060F016 /* Products */;
+			projectDirPath = "";
+			targets = (
+				15024ABA05FFAA930060F016 /* PacketsToMatrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15377A8205FFFD89003EAF12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -r build";
+		};
+		1576F8A905FFB5E200BB67E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp build/classes/*.class \"/Library/Application Support/Cycling '74/java/classes\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15024AB705FFAA930060F016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F56E62093ABB4E00D4044E /* PacketsToMatrix.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07C44863093ABAAB00C587B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = "/Library/Application Support/Cycling 74/java/classes/carlos/maxivore";
+				JAVA_ARCHIVE_CLASSES = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = classes;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		07C44864093ABAAB00C587B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = "/Library/Application Support/Cycling 74/java/classes";
+				JAVA_ARCHIVE_CLASSES = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = classes;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		07C44865093ABAAB00C587B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = "/Library/Application Support/Cycling 74/java/classes";
+				JAVA_ARCHIVE_CLASSES = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = classes;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		07C44867093ABAAB00C587B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		07C44868093ABAAB00C587B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		07C44869093ABAAB00C587B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C44862093ABAAB00C587B4 /* Build configuration list for PBXLibraryTarget "PacketsToMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C44863093ABAAB00C587B4 /* Development */,
+				07C44864093ABAAB00C587B4 /* Deployment */,
+				07C44865093ABAAB00C587B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		07C44866093ABAAB00C587B4 /* Build configuration list for PBXProject "PacketsToMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C44867093ABAAB00C587B4 /* Development */,
+				07C44868093ABAAB00C587B4 /* Deployment */,
+				07C44869093ABAAB00C587B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15024AA805FFA94D0060F016 /* Project object */;
+}

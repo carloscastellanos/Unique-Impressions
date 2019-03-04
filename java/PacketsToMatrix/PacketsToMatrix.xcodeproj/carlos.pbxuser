@@ -1,0 +1,109 @@
+// !$*UTF8*$!
+{
+	0753D6230991B5EC005664D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07F56E61093ABB4E00D4044E /* PacketsToMatrix.java */;
+		name = start;
+		rLen = 5;
+		rLoc = 16755;
+		rType = 0;
+		vrLen = 1797;
+		vrLoc = 1508;
+	};
+	07C4486A093ABAAB00C587B4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	07C4486B093ABAAB00C587B4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	07F1232F093B6AFD002E5AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07F56E61093ABB4E00D4044E /* PacketsToMatrix.java */;
+		name = "PacketsToMatrix.java: 96";
+		rLen = 0;
+		rLoc = 3366;
+		rType = 0;
+		vrLen = 1761;
+		vrLoc = 2072;
+	};
+	07F56E61093ABB4E00D4044E /* PacketsToMatrix.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 6006}}";
+			sepNavSelRange = "{16755, 5}";
+			sepNavVisRect = "{{0, 618}, {769, 680}}";
+		};
+	};
+	15024AA805FFA94D0060F016 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 15024AA605FFA94D0060F016 /* Development */;
+		activeTarget = 15024ABA05FFAA930060F016 /* PacketsToMatrix */;
+		addToTargets = (
+			15024ABA05FFAA930060F016 /* PacketsToMatrix */,
+		);
+		codeSenseManager = 07C4486B093ABAAB00C587B4 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					577,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					327,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 160538278;
+			PBXWorkspaceStateSaveDate = 160538278;
+		};
+		perUserProjectItems = {
+			0753D6230991B5EC005664D7 /* PBXTextBookmark */ = 0753D6230991B5EC005664D7 /* PBXTextBookmark */;
+			07F1232F093B6AFD002E5AEE /* PBXTextBookmark */ = 07F1232F093B6AFD002E5AEE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 07C4486A093ABAAB00C587B4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	15024ABA05FFAA930060F016 /* PacketsToMatrix */ = {
+		activeExec = 0;
+	};
+}
